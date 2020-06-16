@@ -4,6 +4,24 @@ import "./Header.css"
 import logo from "../images/starboy.png"
 
 class Header extends React.Component {
+  state = {
+    hasScrolled: false,
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll)
+  }
+
+  handleScroll = event => {
+    const scrollTop = window.pageXOffset
+
+    if (scrollTop > 10) {
+      this.setState({ hasScrolled: true })
+    } else {
+      this.setState({ hasScrolled: false })
+    }
+  }
+
   render() {
     return (
       <div
