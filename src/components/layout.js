@@ -3,7 +3,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import { rhythm } from "../utils/typography"
 
-const Layout = ({ props }) => {
+const Layout = props => {
   console.log(props)
   return (
     <>
