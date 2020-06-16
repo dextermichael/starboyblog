@@ -9,13 +9,14 @@ const Layout = ({ props }) => {
     <>
       <Header siteTitle="Starboy" />
       <Wrapper>
+        <main>{props.children}</main>
         <Footer />
       </Wrapper>
     </>
   )
 }
 
-function Wrapper() {
+function Wrapper(props) {
   return (
     <div
       style={{
@@ -24,7 +25,10 @@ function Wrapper() {
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
-    ></div>
+    >
+      {" "}
+      {props.children}
+    </div>
   )
 }
 
