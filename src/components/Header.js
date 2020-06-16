@@ -14,6 +14,7 @@ class Header extends React.Component {
 
   handleScroll = event => {
     const scrollTop = window.pageXOffset
+    console.log(scrollTop)
 
     if (scrollTop > 10) {
       this.setState({ hasScrolled: true })
@@ -32,7 +33,7 @@ class Header extends React.Component {
             <img src={logo} width="30" />
           </Link>
           <Link to="/About">About</Link>
-          <Link to="/blog">Covers</Link>
+          <Link to="/blog">Blog</Link>
           <Link to="/projects">Projects</Link>
         </div>
       </div>

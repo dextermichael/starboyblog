@@ -3,7 +3,7 @@ import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import Layout from "../components/Layout"
+import Layout from "../layouts/Layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
