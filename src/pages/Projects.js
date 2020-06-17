@@ -9,6 +9,7 @@ const Projects = () => (
   <div>
     <Layout>
       <Piano />
+      piano made with tone.js
     </Layout>
   </div>
 )
