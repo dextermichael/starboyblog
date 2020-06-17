@@ -7,8 +7,7 @@ import Layout from "../layouts/index"
 const Projects = () => (
   <div>
     <Layout>
-      {/* <Piano /> */}
-      piano made with tone.js
+      <div>COMING SOON</div>
     </Layout>
   </div>
 )
