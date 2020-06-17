@@ -8,7 +8,7 @@ import Piano from "../components/Piano"
 const Projects = () => (
   <div>
     <Layout>
-      <Piano />
+      {/* <Piano /> */}
       piano made with tone.js
     </Layout>
   </div>
