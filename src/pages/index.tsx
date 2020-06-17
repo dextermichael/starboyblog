@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../layouts/Layout"
 import Wave from "../components/Wave"
-import "../layouts/Layout.css"
+import "../layouts/layout.css"
 
 const IndexPage = () => (
   <Layout>
