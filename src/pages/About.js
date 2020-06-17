@@ -19,7 +19,7 @@ const About = () => (
       <div style={{ height: 100 }}></div>
       <Sin>
         <SinGroup>
-          <h2>Call me dex! </h2>
+          <h2>They call me dex! </h2>
           <h1>sample</h1>
           <p>Im from nyc</p>{" "}
         </SinGroup>
