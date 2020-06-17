@@ -1,13 +1,38 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: I designed my own Sneakers!
+date: 2020-06-13T23:46:00.000Z
+description: My experience with F.I.T sneaker essentials course
 ---
+Recently i completed Fashion Institute of Technology Sneaker Essentials. 
 
-Wow! I love blogging so much already.
+![](dexterhenningtonsnecertificate-0001.jpg "Sneaker Essentials Certification")
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](https://en.wikipedia.org/wiki/Salted_duck_egg))
+[](https://www.fitnyc.edu/)I learned a lot. At first i thought it would just be about designing sneakers but they had you make mode boards and even make adds for your favorite sneakers!
 
-Yeah, I didn't either.
+
+
+![](whole-mood.png "Mood Board")
+
+![](nike-air-mowabb-comme-des-garcons-black-1-.png "Ad for my favorite sneakers!")
+
+
+
+My favorite part of the program was designing my own shoe.I was worried that my vision wouldn't come alive because i cannot draw at all. But if you look you'll find it! I found an app that allowed me to create piece other shoes together. The app is called "snkr generator"
+
+
+
+# I present to you. "The Light House"
+
+
+
+![](img_4380.png "LIGHT HOUSE")
+
+We were even asked to make a collection of hour favorite shoes!
+
+
+
+![](collection.png "Collection")
+
+ All in all i really enjoyed it. If i ever go in to the sneaker business  I think ill use the logo and name I made! 
+
+![](black-and-red-laser-games-logo.png "LIGHT TOWER")
