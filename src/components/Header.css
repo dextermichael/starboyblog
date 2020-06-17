@@ -1,5 +1,5 @@
 .Header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 50px 0;
   z-index: 100;
@@ -13,13 +13,13 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   /* align-items: center;
-  justify-items: center; */
+justify-items: center; */
 }
 
 .Header a {
   color: white;
   font-weight: 700;
-  text-decoration: none;
+
 
 }
 

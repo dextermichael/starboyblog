@@ -13,6 +13,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <div style={{ height: 50 }}></div>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}

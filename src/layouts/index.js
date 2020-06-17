@@ -9,6 +9,7 @@ const Layout = props => {
   return (
     <>
       <Header siteTitle="Starboy" />
+      <div style={{ height: 100 }}></div>
       <Wrapper>
         <main>{props.children}</main>
       </Wrapper>
