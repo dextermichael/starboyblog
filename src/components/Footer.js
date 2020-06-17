@@ -1,5 +1,5 @@
-import React from "react"
+// import React from "react"
 
-const Footer = () => <footer>{new Date().getFullYear()}</footer>
+// // const Footer = () => <footer>{new Date().getFullYear()}</footer>
 
-export default Footer
+// export default Footer

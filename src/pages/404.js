@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../layouts/Layout"
+import Layout from "../layouts/index"
 import SEO from "../components/seo"
 
 const NotFoundPage = ({ data, location }) => {

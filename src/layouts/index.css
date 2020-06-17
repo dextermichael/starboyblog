@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -7,7 +8,9 @@ body {
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
     line-height: 1.3;
-    background-color: rgb(130, 128, 127);
+    background-color: #DEDEDE;
+
+
 }
 
 a {
@@ -17,10 +20,11 @@ a {
 }
 
 .Hero {
-    height: 920px;
-    background-image: linear-gradient(red, yellow);
-    background: url('');
+    height: 800px;
+    background: url('../images/spaceship.png');
     background-size: cover;
+    background-size: 300px 280px;
+    background-repeat: no-repeat;
     background-position: center;
     position: relative;
 }
@@ -40,8 +44,11 @@ a {
 
 .Hero h1 {
     margin: 0;
-    color: yellow;
-    font-size: 60px;
+    font-family: 'Megrim', cursive;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
     line-height: 1.2;
     animation: HeroAnimation;
     animation-duration: 3s;

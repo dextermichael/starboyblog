@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import Layout from "../layouts/layout"
+import Layout from "../layouts/index.js"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
