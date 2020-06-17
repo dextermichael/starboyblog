@@ -1,9 +1,9 @@
 // Gatsby supports TypeScript natively!
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
-import styled from "styled-components"
+
 import Bio from "../components/bio"
-import Layout from "../layouts/index.js"
+import Layout from "../layouts/index"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -35,9 +35,9 @@ const Blog = ({ data, location }: PageProps<Data>) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <div className="TuckGroup">
+    <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      {/* <Bio /> */}
+      <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -64,7 +64,7 @@ const Blog = ({ data, location }: PageProps<Data>) => {
           </article>
         )
       })}
-    </div>
+    </Layout>
   )
 }
 
