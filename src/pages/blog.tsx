@@ -37,7 +37,8 @@ const Blog = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
+
+      <div style={{ height: 50 }}></div>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
