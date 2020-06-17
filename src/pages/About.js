@@ -1,12 +1,7 @@
 import React from "react"
-import Wave from "../components/Wave"
 import "../layouts/index.css"
-import Header from "../components/Header.js"
-
 import styled from "styled-components"
-import { rhythm } from "../utils/typography"
 import Layout from "../layouts"
-
 const Sin = styled.div`
   text-align: center;
   justifycontent: center;
@@ -19,9 +14,15 @@ const About = () => (
       <div style={{ height: 100 }}></div>
       <Sin>
         <SinGroup>
-          <h2>They call me dex! </h2>
-          <h1>sample</h1>
-          <p>Im from nyc</p>{" "}
+          <h1>They call me Dex! </h1>
+          <h2>Life Learner</h2>
+          <p>
+            Ive been breaking things since I was kid. But i always loved buting
+            them back together! Started teaching myself the piano when i was 6
+            years old. That taught me the frustration and reward of sticking
+            with something and watching it blossom into something great. Always
+            ready for a new adventure!
+          </p>{" "}
         </SinGroup>
       </Sin>
     </Layout>
